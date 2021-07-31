@@ -122,10 +122,10 @@ textarea{
 
 .security-inner{
     width: 100%;
-    background-image: url(/HW7/images/img1.svg) no-repeat;
+    background: url(/HW7/images/img1.svg) no-repeat;   
     background-size: 70% auto;
     background-position: right bottom;
-    padding-bottom: 100px;
+    padding: bottom 100px;
     margin-bottom: 100px;
 }
 
