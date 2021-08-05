@@ -3,7 +3,7 @@
     outline: none;
 }
 .header{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/1main.png), center center / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/main.png), center center / cover no-repeat;
     width: 100%;
     position: relative;
 }
