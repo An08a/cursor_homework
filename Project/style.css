@@ -142,7 +142,7 @@
     font-size: 40px;
     line-height: 64px;
     color: #FFFFFF;
-    background: url(../Project/images/block1.1.png);
+    background-image: url(../Project/images/block1.1.png);
     opacity: 0.8;
     width: 342px;
     height: 214px;
@@ -158,7 +158,7 @@
     font-size: 40px;
     line-height: 64px;
     color: #FFFFFF;
-    background: url(../Project/images/block1.2.png);
+    background-image: url(../Project/images/block1.2.png);
     opacity: 0.8;
     width: 342px;
     height: 214px;
@@ -174,7 +174,7 @@
     font-size: 40px;
     line-height: 64px;
     color: #FFFFFF;
-    background: url(../Project/images/block1.3.png);
+    background-image: url(../Project/images/block1.3.png);
     opacity: 0.8;
     width: 342px;
     height: 214px;
