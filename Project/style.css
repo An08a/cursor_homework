@@ -1,9 +1,10 @@
 *{
     text-decoration: none;
     outline: none;
+    border: none;
 }
 .header{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Project/images/1main.png), center center / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/1main.png) center center / cover no-repeat;
     width: 100%;
     position: relative;
 }
@@ -108,7 +109,7 @@
     cursor: pointer;
 }
 
-/*main*/
+/*shadow*/
 
 .gravity-section-block-two{
     padding-top: 190px;
@@ -117,10 +118,21 @@
 
 .gravity-shadow-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #FFFFFF;
-    
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -128,8 +140,6 @@
 
 .section-block-two-photos{
     display: flex;
-    justify-content: center;
-    align-items: center;
     justify-content: space-around;
     color: #FFFFFF;
     padding-top: 126px;
@@ -142,7 +152,7 @@
     font-size: 40px;
     line-height: 64px;
     color: #FFFFFF;
-    background-image: url(../Project/images/block1.1.png);
+    background-image: url(/images/block1.1.png);
     opacity: 0.8;
     width: 342px;
     height: 214px;
@@ -158,7 +168,7 @@
     font-size: 40px;
     line-height: 64px;
     color: #FFFFFF;
-    background-image: url(../Project/images/block1.2.png);
+    background-image: url(/images/block1.2.png);
     opacity: 0.8;
     width: 342px;
     height: 214px;
@@ -174,7 +184,7 @@
     font-size: 40px;
     line-height: 64px;
     color: #FFFFFF;
-    background-image: url(../Project/images/block1.3.png);
+    background-image: url(/images/block1.3.png);
     opacity: 0.8;
     width: 342px;
     height: 214px;
@@ -196,7 +206,6 @@
 .section-history{
     color: #FFFFFF;
     padding-bottom: 182px;
-
 }
 
 .history-title{
@@ -231,7 +240,8 @@
 .photos-location-gravity{
     display: grid;
     grid-template-columns: repeat(3, 617px);
-    grid-template-rows: 291px 269px;
+    grid-template-rows: 274px 269px;
+    background: #010101;
 }
 
 .discover-image:nth-child(1){
@@ -242,7 +252,59 @@
     height: 100%;
 }
 
+.discover-image:nth-child(1){
+    position: relative;
+}
 
+.about-img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 215px;
+    padding-left: 288px;
+}
+
+
+.discover-title{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 34px;
+    color: #FFFFFF;
+    
+}
+
+.line{
+    width: 240.25px;
+    height: 1px;
+    border: 0px solid #FFFFFF;
+    background: #FFFFFF;
+    margin-top: 16px;
+}
+
+.discover-project-works{
+    margin-top: 16px;
+    width: 186px;
+    height: 48px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background: #010101;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.discover-project-works:hover{
+    background: linear-gradient(360deg, #010101 -16.15%, rgba(1, 1, 1, 0) 104.17%);;
+}
 
 .discover-image:nth-child(2){
     grid-column: 3/4;
@@ -284,8 +346,34 @@
     height: 100%;
 }
 
-/*Partners
+.button-project-discover{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
 
+.button-project{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background: #010101;
+    box-sizing: border-box;
+    width: 162px;
+    height: 46px;
+}
+
+.button-project:hover{
+    background: linear-gradient(360deg, #504c4c -16.15%, rgba(1, 1, 1, 0) 104.17%);;
+    cursor: pointer;
+}
+
+/*PARTNERS*/
 .partners{
 
 }
@@ -293,13 +381,15 @@
 .partners-header{
     display: flex;
     justify-content: space-around;
-
+    padding-top: 120px;
+    background: #FFFFFF;
 }
 
 .menu-with-arrow{
     display: flex;
     justify-content: space-between;
-    
+    padding-top: 10px;
+    padding-bottom: 60px;
 }
 
 .arrow-partners{
@@ -308,8 +398,233 @@
     height: 20px;
 }
 
-.logos-partners{
-    display: flex;
+/*PARTNERS*/
 
+.partners{
+    padding-bottom: 170px;
 }
-*/
+
+.title-partners{
+    color: #010101;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.logotypes-first-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logotypes-second-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partners-about{
+    cursor: pointer;
+}
+
+/*REVIEWS*/
+
+.reviews-container{
+    background-color:  #010101;
+}
+
+.reviews-header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    color: #FFFFFF;
+}
+
+.reviews-with-arrow{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    color: #FFFFFF;
+}
+
+.arrow-reviews{
+    color: #FFFFFF;
+    padding-right: 48px;
+    color:  #010101;
+    height: 20px;
+}
+
+.title-review{
+    color: #FFFFFF;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.reviews-cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 56px;
+}
+
+.card-lenovo{
+    width: 398px;
+    box-sizing: border-box;
+    background-color: #C7C7C7;;
+}
+
+.title-name-first{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #010101;
+}
+
+.title-name-first::after{
+    content: url(/images/lenovo.png);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paragraph-lenovo-first{
+    width: 193px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #010101;
+}
+
+.paragraph-lenovo-second{
+    width: 334px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #010101;
+}
+
+.sport-card{
+    background: #1E1E1E;
+    width: 398px;
+    box-sizing: border-box;
+}
+
+.sport-card::after{
+    content: url(/images/sport.png);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sport-title{
+    width: 102px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.paragraph-sport-first{
+    width: 162px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.paragraph-sport-second{
+    width: 334px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.land-rover{
+    background: #C7C7C7;
+    width: 398px;
+    box-sizing: border-box;
+}
+
+.land-rover::after{
+    content: url(/images/land-rover.png);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.land-rover-title{
+    width: 98px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #010101;
+}
+
+.land-rover-paragraph-first{
+    width: 193px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #010101;
+}
+
+.land-rover-paragraph-second{
+    width: 334px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #010101;
+}
+
+/*FOOOTER*/
+
+.footer{
+    background-color: #010101;
+    color: #fff;
+}
+
+.footer-header-image{
+    padding-left: 120px;
+    padding-top: 5px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+.footer-list{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-socials{ 
+    display: flex;
+    justify-self: center;
+    justify-content: space-evenly;
+}
