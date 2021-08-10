@@ -4,7 +4,7 @@
     border: none;
 }
 .header{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/1main.png) center center / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/1main.png) center center / cover no-repeat;
     width: 100%;
     position: relative;
 }
@@ -139,7 +139,7 @@
     font-size: 40px;
     line-height: 64px;
     color: #FFFFFF;
-    background-image: url(../images/block1.1.png);
+    background-image: url(images/block1.1.png);
     opacity: 0.8;
     width: 342px;
     height: 214px;
@@ -155,7 +155,7 @@
     font-size: 40px;
     line-height: 64px;
     color: #FFFFFF;
-    background-image: url(../images/block1.2.png);
+    background-image: url(images/block1.2.png);
     opacity: 0.8;
     width: 342px;
     height: 214px;
@@ -171,7 +171,7 @@
     font-size: 40px;
     line-height: 64px;
     color: #FFFFFF;
-    background-image: url(../images/block1.3.png);
+    background-image: url(images/block1.3.png);
     opacity: 0.8;
     width: 342px;
     height: 214px;
@@ -472,7 +472,7 @@
 }
 
 .title-name-first::after{
-    content: url(../images/lenovo.png);
+    content: url(images/lenovo.png);
     display: flex;
     justify-content: flex-end;
 }
@@ -504,7 +504,7 @@
 }
 
 .sport-card::after{
-    content: url(../images/sport.png);
+    content: url(images/sport.png);
     display: flex;
     justify-content: flex-end;
 }
@@ -546,7 +546,7 @@
 }
 
 .land-rover::after{
-    content: url(../images/land-rover.png);
+    content: url(images/land-rover.png);
     display: flex;
     justify-content: flex-end;
 }
