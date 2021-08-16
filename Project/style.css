@@ -224,11 +224,15 @@
 
 /*DISCOVER UKRAINE SVYDOVETS’*/
 
-.photos-location-gravity{
+.project-discover{
+    background: #010101;
+}
+
+.discover-location{
     display: grid;
     grid-template-columns: repeat(3, 493px);
     grid-template-rows: 274px 269px;
-    background: #010101;
+    
 }
 
 .discover-image:nth-child(1){
@@ -249,8 +253,8 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding-top: 215px;
-    padding-left: 288px;
+    /* padding-top: 215px;
+    padding-left: 288px; */
 }
 
 
@@ -358,6 +362,10 @@
 .button-project:hover{
     background: linear-gradient(360deg, #504c4c -16.15%, rgba(1, 1, 1, 0) 104.17%);;
     cursor: pointer;
+}
+
+.discover-image{
+    position: relative;
 }
 
 /*PARTNERS*/
