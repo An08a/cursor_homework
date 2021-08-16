@@ -226,7 +226,7 @@
 
 .photos-location-gravity{
     display: grid;
-    grid-template-columns: repeat(3, 617px);
+    grid-template-columns: repeat(3, 493px);
     grid-template-rows: 274px 269px;
     background: #010101;
 }
