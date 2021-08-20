@@ -230,7 +230,7 @@
 
 .discover-location{
     display: grid;
-    grid-template-columns: repeat(3, 493px);
+    grid-template-columns: repeat(3, 480px);
     grid-template-rows: 274px 269px;
     
 }
@@ -253,8 +253,12 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* padding-top: 215px;
-    padding-left: 288px; */
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 
@@ -357,6 +361,8 @@
     box-sizing: border-box;
     width: 162px;
     height: 46px;
+    margin-top: 40px;
+    margin-bottom: 120px;
 }
 
 .button-project:hover{
@@ -388,6 +394,7 @@
     padding-right: 48px;
     color:  #010101;
     height: 20px;
+    cursor: pointer;
 }
 
 /*PARTNERS*/
@@ -617,10 +624,16 @@
 }
 
 .footer-socials{ 
-    display: flex;
-    justify-self: center;
-    justify-content: space-evenly;
+
 }
+
+.footer-image{
+    
+}
+
+
+
+
 
 .footer-title{
     font-family: Montserrat;
@@ -639,3 +652,4 @@
     display: flex;
     justify-content: center;
 }
+
