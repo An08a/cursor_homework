@@ -430,7 +430,7 @@
 
 /*REVIEWS*/
 
-.reviews-container{
+.reviews{
     background-color:  #010101;
 }
 
@@ -441,20 +441,6 @@
     color: #FFFFFF;
 }
 
-.reviews-with-arrow{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 25px;
-    padding-bottom: 60px;
-    color: #FFFFFF;
-}
-
-.arrow-reviews{
-    color: #FFFFFF;
-    padding-right: 48px;
-    color:  #010101;
-    height: 20px;
-}
 
 .title-review{
     color: #FFFFFF;
@@ -467,26 +453,36 @@
 
 .reviews-cards{
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 56px;
+    margin-top: 56px;
+    margin-left: 38px;
+    width: 398px;
+    height: 228px;
+    justify-content: space-between;
+}
+
+.arrow-group{
+    cursor: pointer;
 }
 
 .card-lenovo{
-    width: 398px;
+    margin-left: 120px;
+    margin-right: 5px;
     box-sizing: border-box;
-    background-color: #C7C7C7;;
+    background-color: #C7C7C7;
+    padding: 32px 32px 42px 32px;
 }
 
 .title-name-first{
     font-family: Oswald;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 18px;
     line-height: 24px;
     color: #010101;
+    padding-bottom: 8px;
 }
 
-.title-name-first::after{
+.text-lenovo::after{
     content: url(images/lenovo.png);
     display: flex;
     justify-content: flex-end;
@@ -500,6 +496,7 @@
     font-size: 12px;
     line-height: 20px;
     color: #010101;
+    padding-bottom: 24px;
 }
 
 .paragraph-lenovo-second{
@@ -516,6 +513,8 @@
     background: #1E1E1E;
     width: 398px;
     box-sizing: border-box;
+    margin-right: 5px;
+    padding: 32px 32px 42px 32px;
 }
 
 .sport-card::after{
@@ -525,13 +524,13 @@
 }
 
 .sport-title{
-    width: 102px;
     font-family: Oswald;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
+    padding-bottom: 8px;
 }
 
 .paragraph-sport-first{
@@ -542,6 +541,7 @@
     font-size: 12px;
     line-height: 20px;
     color: #FFFFFF;
+    padding-bottom: 24px;
 }
 
 .paragraph-sport-second{
@@ -556,8 +556,8 @@
 
 .land-rover{
     background: #C7C7C7;
-    width: 398px;
     box-sizing: border-box;
+    padding: 32px 32px 42px 32px;
 }
 
 .land-rover::after{
@@ -567,13 +567,13 @@
 }
 
 .land-rover-title{
-    width: 98px;
     font-family: Oswald;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
     color: #010101;
+    padding-bottom: 8px;
 }
 
 .land-rover-paragraph-first{
@@ -584,6 +584,7 @@
     font-size: 12px;
     line-height: 20px;
     color: #010101;
+    padding-bottom: 24px;
 }
 
 .land-rover-paragraph-second{
