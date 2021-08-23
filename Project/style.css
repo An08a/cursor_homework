@@ -577,7 +577,7 @@
 }
 
 .land-rover::after{
-    content: url(images/land-rover.png);
+    content: url(images\land-rover.png);
     display: flex;
     justify-content: flex-end;
     position: absolute;
