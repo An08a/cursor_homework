@@ -493,7 +493,7 @@
 }
 
 .text-lenovo::after{
-    content: url(/images/lenovo.png);
+    content: url(images/lenovo.png);
     top: 14%;
     left: 57%;
     position: absolute;
@@ -530,7 +530,7 @@
 }
 
 .sport-card::after{
-    content: url(/images/sport.png);
+    content: url(images/sport.png);
     display: flex;
     justify-content: flex-end;
     position: absolute;
