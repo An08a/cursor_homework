@@ -493,7 +493,7 @@
 }
 
 .text-lenovo::after{
-    content: url(../images/lenovo.png);
+    content: url(./images/lenovo.png);
     top: 14%;
     left: 57%;
     position: absolute;
@@ -530,9 +530,7 @@
 }
 
 .sport-card::after{
-    content: url(../images/sport.png);
-    display: flex;
-    justify-content: flex-end;
+    content: url(./images/sport.png);
     position: absolute;
     top: 20%;
     left: 80%;
@@ -578,8 +576,6 @@
 
 .land-rover::after{
     content: url(images/land-rover.png);
-    display: flex;
-    justify-content: flex-end;
     position: absolute;
     top: 16%;
     left: 66%;
