@@ -479,6 +479,7 @@
     box-sizing: border-box;
     background-color: #C7C7C7;
     padding: 32px 32px 42px 32px;
+    position: relative;
 }
 
 .title-name-first{
@@ -493,8 +494,9 @@
 
 .text-lenovo::after{
     content: url(images/lenovo.png);
-    display: flex;
-    justify-content: flex-end;
+    top: 14%;
+    left: 57%;
+    position: absolute;
 }
 
 .paragraph-lenovo-first{
@@ -524,12 +526,16 @@
     box-sizing: border-box;
     margin-right: 5px;
     padding: 32px 32px 42px 32px;
+    position: relative;
 }
 
 .sport-card::after{
     content: url(images/sport.png);
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    top: 20%;
+    left: 80%;
 }
 
 .sport-title{
@@ -567,12 +573,16 @@
     background: #C7C7C7;
     box-sizing: border-box;
     padding: 32px 32px 42px 32px;
+    position: relative;
 }
 
 .land-rover::after{
     content: url(images/land-rover.png);
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    top: 20%;
+    left: 80%;
 }
 
 .land-rover-title{
