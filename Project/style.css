@@ -428,6 +428,15 @@
     cursor: pointer;
 }
 
+.logos{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logotypes-second-row{
+    margin-right: 39px;
+}
+
 /*REVIEWS*/
 
 .reviews{
@@ -605,36 +614,49 @@
     padding-bottom: 35px;
 }
 
-.footer-header-image{
-    padding-left: 120px;
-    padding-top: 5px;
-}
-
-.footer-content{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    margin: 0px auto;
-}
-
-.footer-list{
+.footer-logo:hover{
+    transform: scale(1.2);
     cursor: pointer;
+}
+
+.main-logo-head{
+    width: 100%;
+}
+
+.list-footer{
     display: flex;
     justify-content: space-around;
+    list-style-type: none;
 }
 
-.footer-socials{ 
-
+.list{
+    margin-top: 40px;
+    cursor: pointer;
 }
 
-.footer-image{
-    
+.list:hover{
+    text-decoration: overline;
 }
 
+.list:nth-child(5){
+    margin-right: 170px;
+}
 
+.list:nth-child(1){
+    margin-left: 100px;
+}
 
+.footer-socials{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 400px 30px 390px;
+    cursor: pointer;
+}
 
+.socials:hover{
+    background: linear-gradient(180deg, #010101 11.52%, rgba(41, 40, 40, 0.76) 100%);
+    transform: scale(1.2);
+}
 
 .footer-title{
     font-family: Montserrat;
@@ -643,10 +665,13 @@
     font-size: 16px;
     line-height: 32px;
     width: 271px;
-    margin-top: 37px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer-title:hover{
+    text-decoration: overline;
 }
 
 .footer-last{
